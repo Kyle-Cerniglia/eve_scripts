@@ -834,6 +834,29 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Shield Tech": 1,
         }
     },
+    # Targeting Rigs
+    "Small Ionic Field Projector II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
+    "Small Targeting System Subcontroller II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
 }
 
 
