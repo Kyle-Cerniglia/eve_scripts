@@ -639,6 +639,17 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
+    # Projectile Weapon Rigs
+    "Small Projectile Ambit Extension II": {
+        "materials": {
+            "Datacore - Nuclear Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Trigger Unit": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
