@@ -487,7 +487,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Energy Tech": 1,
         }
     },
-    "Small Processor Overclocking II": {
+    "Small Processor Overclocking Unit II": {
         "materials": {
             "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
             "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
@@ -648,6 +648,57 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Micro Circuit": 1,
             "Interface Circuit": 1,
             "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Projectile Burst Aerator II": {
+        "materials": {
+            "Datacore - Nuclear Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Trigger Unit": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Projectile Collision Accelerator II": {
+        "materials": {
+            "Datacore - Nuclear Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Trigger Unit": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Projectile Locus Coordinator II": {
+        "materials": {
+            "Datacore - Nuclear Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Trigger Unit": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Projectile Metastasis Adjuster II": {
+        "materials": {
+            "Datacore - Nuclear Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Trigger Unit": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    # Resource Processing Rigs
+    "Small Projectile Metastasis Adjuster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Nanite Compound": 1,
+            "Interface Circuit": 1,
+            "Intact Armor Plates": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
         }
     },
 }
