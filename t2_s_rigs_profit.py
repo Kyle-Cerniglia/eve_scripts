@@ -578,6 +578,67 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
+    # Missile Launcher Rigs
+    "Small Bay Loading Accelerator II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Telemetry Processor": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hydraulic Bay Thrusters II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Telemetry Processor": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Rocket Fuel Cache Partition II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Telemetry Processor": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Warhead Calefaction Catalyst II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Telemetry Processor": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Warhead Flare Catalyst II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Telemetry Processor": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Warhead Rigor Catalyst II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Telemetry Processor": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
