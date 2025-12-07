@@ -743,6 +743,97 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Miniature Electronics": 6,
         }
     },
+    # Shield Rigs
+    "Small Core Defense Capacitor Safeguard II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Intact Shield Emitter": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Core Defense Charge Economizer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Intact Shield Emitter": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Core Defense Field Extender II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "Enhanced Ward Console": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Core Defense Field Purger II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "Enhanced Ward Console": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Core Defense Operational Solidifier II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "Enhanced Ward Console": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small EM Shield Reinforcer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Intact Shield Emitter": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Explosive Shield Reinforcer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Intact Shield Emitter": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Kinetic Shield Reinforcer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Intact Shield Emitter": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Thermal Shield Reinforcer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Intact Shield Emitter": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
 }
 
 
