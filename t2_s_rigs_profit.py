@@ -218,6 +218,87 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Armor/Hull Tech": 1,
         }
     },
+    # Drone Rigs
+    "Small Drone Control Range Augmentor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Drone Durability Enhancer II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Drone Mining Augmentor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Drone Repair Augmentor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Drone Scope Chip II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Drone Speed Augmentor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Sentry Damage Augmentor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Small Stasis Drone Augmentor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Drone Transceiver": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
 }
 
 
