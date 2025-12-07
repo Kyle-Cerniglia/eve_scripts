@@ -691,7 +691,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
         }
     },
     # Resource Processing Rigs
-    "Small Projectile Metastasis Adjuster II": {
+    "Small Salvage Tackle II": {
         "materials": {
             "Datacore - Hydromagnetic Physics": 1 / INVENTION_RATE,
             "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
@@ -699,6 +699,48 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Interface Circuit": 1,
             "Intact Armor Plates": 1,
             "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    # Scanning Rigs
+    "Small Emission Scope Sharpener II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Conductive Thermoplastic": 1,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Gravity Capacitor Upgrade II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Conductive Thermoplastic": 1,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Memetic Algorithm Bank II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Conductive Thermoplastic": 1,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Signal Focusing Kit II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
         }
     },
 }
