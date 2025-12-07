@@ -507,6 +507,77 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Energy Tech": 1,
         }
     },
+    # Hybrid Weapon Rigs
+    "Small Algid Hybrid Administrations Unit II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hybrid Ambit Extension II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hybrid Burst Aerator II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hybrid Collision Accelerator II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hybrid Discharge Elutriation II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hybrid Locus Coordinator II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Hybrid Metastasis Adjuster II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Mechanical Engineering": 1 / INVENTION_RATE,
+            "Lorentz Fluid": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
