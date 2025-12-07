@@ -299,6 +299,72 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Robotics": 1,
         }
     },
+    # Electronics Superiority Rigs
+    "Small Inverted Signal Field Projector II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
+    "Small Particle Dispersion Augmentor II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
+    "Small Particle Dispersion Projector II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
+    "Small Signal Disruption Amplifier II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Conductive Thermoplastic": 1,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Targeting Systems Stabilizer II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
+    "Small Tracking Diagnostic Subroutines II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Electronics": 1,
+            "Miniature Electronics": 6,
+        }
+    },
 }
 
 
