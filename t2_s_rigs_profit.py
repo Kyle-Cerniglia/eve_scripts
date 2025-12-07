@@ -436,6 +436,77 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
+    # Engineering Rigs
+    "Small Ancillary Current Router II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Conduit": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Capacitor Control Circuit II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "Capacitor Console": 1,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Egress Port Maximizer II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Conduit": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Liquid Cooled Electronics II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Conductive Thermoplastic": 1,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Powergrid Subroutine Maximizer II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Conduit": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Processor Overclocking II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / INVENTION_RATE,
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE,
+            "Artificial Neural Network": 1,
+            "Power Circuit": 1,
+            "Conductive Thermoplastic": 1,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Semiconductor Memory Cell II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Quantum Physics": 1 / INVENTION_RATE,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "Capacitor Console": 1,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
 }
 
 
