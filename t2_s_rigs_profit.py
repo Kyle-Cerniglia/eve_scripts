@@ -365,6 +365,77 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Miniature Electronics": 6,
         }
     },
+    # Energy Weapon Rigs
+    "Small Algid Energy Administrations Unit II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Energy Ambit Extension II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Energy Burst Aerator II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Energy Collision Accelerator II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Energy Discharge Elutriation II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Energy Locus Coordinator II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Energy Metastasis Adjuster II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / INVENTION_RATE,
+            "Datacore - Laser Physics": 1 / INVENTION_RATE,
+            "Current Pump": 1,
+            "Micro Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
