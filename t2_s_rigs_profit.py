@@ -137,6 +137,87 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Armor/Hull Tech": 1,
         }
     },
+    # Astronautic Rigs
+    "Small Auxiliary Thrusters II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "Impetus Console": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Cargohold Optimization II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Single-crystal Superalloy I-beam": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Dynamic Fuel Valve II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Single-crystal Superalloy I-beam": 1,
+            "Power Circuit": 1,
+            "Logic Circuit": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Engine Thermal Shielding II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Single-crystal Superalloy I-beam": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Hyperspatial Velocity Optimizer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "Impetus Console": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Low Friction Nozzle Joints II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "Impetus Console": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Polycarbon Engine Housing II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Single-crystal Superalloy I-beam": 1,
+            "Power Circuit": 1,
+            "Interface Circuit": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Warp Core Optimizer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / INVENTION_RATE,
+            "Datacore - Nanite Engineering": 1 / INVENTION_RATE,
+            "Micro Circuit": 1,
+            "Logic Circuit": 1,
+            "Impetus Console": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
 }
 
 
