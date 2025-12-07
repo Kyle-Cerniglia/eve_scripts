@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-T2 Advanced Component profit checker for Jita 4-4.
+T2 Small Rigs profit checker for Jita 4-4.
 
 - Uses ESI market data from The Forge.
 - Material cost: lowest Jita 4-4 SELL orders.
