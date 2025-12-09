@@ -60,6 +60,345 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Robotics": 1,
         }
     },
+    "Ogre II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Ogre I": 1,
+            "Morphite": 6,
+            "Particle Accelerator Unit": 3,
+            "Guidance Systems": 6,
+            "Robotics": 6,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Praetor II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Praetor I": 1,
+            "Morphite": 6,
+            "Laser Focusing Crystals": 3,
+            "Guidance Systems": 6,
+            "Robotics": 6,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Wasp II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Wasp I": 1,
+            "Morphite": 6,
+            "Superconductor Rails": 3,
+            "Guidance Systems": 6,
+            "Robotics": 6,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    # Light Scout Drones
+    "Acolyte II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 1 / INVENTION_RATE / BPC_RUNS,
+            "Acolyte I": 1,
+            "Morphite": 1,
+            "Laser Focusing Crystals": 1,
+            "Guidance Systems": 1,
+            "Robotics": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Hobgoblin II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 1 / INVENTION_RATE / BPC_RUNS,
+            "Hobgoblin I": 1,
+            "Morphite": 1,
+            "Particle Accelerator Unit": 1,
+            "Guidance Systems": 1,
+            "Robotics": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Hornet II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 1 / INVENTION_RATE / BPC_RUNS,
+            "Hornet I": 1,
+            "Morphite": 1,
+            "Superconductor Rails": 1,
+            "Guidance Systems": 1,
+            "Robotics": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Warrior II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 1 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 1 / INVENTION_RATE / BPC_RUNS,
+            "Warrior I": 1,
+            "Morphite": 1,
+            "Thermonuclear Trigger Unit": 1,
+            "Guidance Systems": 1,
+            "Robotics": 1,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    # Medium Scout Drones
+    "Hammerhead II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 2 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 2 / INVENTION_RATE / BPC_RUNS,
+            "Hammerhead I": 1,
+            "Morphite": 3,
+            "Particle Accelerator Unit": 1,
+            "Guidance Systems": 3,
+            "Robotics": 3,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Infiltrator II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 2 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 2 / INVENTION_RATE / BPC_RUNS,
+            "Infiltrator I": 1,
+            "Morphite": 3,
+            "Laser Focusing Crystals": 1,
+            "Guidance Systems": 3,
+            "Robotics": 3,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Valkyrie II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 2 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 2 / INVENTION_RATE / BPC_RUNS,
+            "Valkyrie I": 1,
+            "Morphite": 3,
+            "Thermonuclear Trigger Unit": 1,
+            "Guidance Systems": 3,
+            "Robotics": 3,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Vespa II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 2 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 2 / INVENTION_RATE / BPC_RUNS,
+            "Vespa I": 1,
+            "Morphite": 3,
+            "Superconductor Rails": 1,
+            "Guidance Systems": 3,
+            "Robotics": 3,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    # Sentry Drones
+    "Bouncer II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Bouncer I": 1,
+            "Morphite": 5,
+            "Thermonuclear Trigger Unit": 3,
+            "Guidance Systems": 5,
+            "Robotics": 5,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Curator II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Curator I": 1,
+            "Morphite": 5,
+            "Laser Focusing Crystals": 3,
+            "Guidance Systems": 5,
+            "Robotics": 5,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Garde II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Garde I": 1,
+            "Morphite": 5,
+            "Particle Accelerator Unit": 3,
+            "Guidance Systems": 5,
+            "Robotics": 5,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    "Warden II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Warden I": 1,
+            "Morphite": 5,
+            "Superconductor Rails": 3,
+            "Guidance Systems": 5,
+            "Robotics": 5,
+            "R.A.M.- Robotics": 1,
+        }
+    },
+    # Light Fighters
+    "Dragonfly II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Dragonfly I": 1,
+            "Morphite": 12,
+            "Magpulse Thruster": 12,
+            "Gravimetric Sensor Cluster": 12,
+            "Graviton Reactor Unit": 16,
+            "Superconductor Rails": 12,
+            "Guidance Systems": 12,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Einherji II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Einherji I": 1,
+            "Morphite": 12,
+            "Plasma Thruster": 12,
+            "Ladar Sensor Cluster": 12,
+            "Nuclear Reactor Unit": 16,
+            "Thermonuclear Trigger Unit": 12,
+            "Guidance Systems": 12,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Equite II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Equite I": 1,
+            "Morphite": 10,
+            "Phenolic Composites": 40,
+            "Fusion Thruster": 20,
+            "Radar Sensor Cluster": 8,
+            "Antimatter Reactor Unit": 12,
+            "Guidance Systems": 8,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Firbolg II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Firbolg I": 1,
+            "Morphite": 12,
+            "Ion Thruster": 12,
+            "Magnetometric Sensor Cluster": 12,
+            "Fusion Reactor Unit": 16,
+            "Particle Accelerator Unit": 12,
+            "Guidance Systems": 12,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Gram II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Gram I": 1,
+            "Morphite": 10,
+            "Phenolic Composites": 40,
+            "Plasma Thruster": 20,
+            "Ladar Sensor Cluster": 8,
+            "Nuclear Reactor Unit": 12,
+            "Guidance Systems": 8,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Locust II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Locust I": 1,
+            "Morphite": 10,
+            "Phenolic Composites": 40,
+            "Magpulse Thruster": 20,
+            "Gravimetric Sensor Cluster": 8,
+            "Graviton Reactor Unit": 12,
+            "Guidance Systems": 8,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Satyr II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Satyr I": 1,
+            "Morphite": 10,
+            "Phenolic Composites": 40,
+            "Ion Thruster": 20,
+            "Magnetometric Sensor Cluster": 8,
+            "Fusion Reactor Unit": 12,
+            "Guidance Systems": 8,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    # Support Fighters
+    "Cenobite II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Cenobite I": 1,
+            "Morphite": 24,
+            "Fusion Thruster": 22,
+            "Radar Sensor Cluster": 28,
+            "Nanoelectrical Microprocessor": 40,
+            "Antimatter Reactor Unit": 38,
+            "Tesseract Capacitor Unit": 36,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Dromi II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Dromi I": 1,
+            "Morphite": 24,
+            "Plasma Thruster": 22,
+            "Ladar Sensor Cluster": 28,
+            "Nanomechanical Microprocessor": 40,
+            "Nuclear Reactor Unit": 38,
+            "Electrolytic Capacitor Unit": 36,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Scarab II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Scarab I": 1,
+            "Morphite": 24,
+            "Magpulse Thruster": 22,
+            "Gravimetric Sensor Cluster": 28,
+            "Quantum Microprocessor": 40,
+            "Graviton Reactor Unit": 38,
+            "Scalar Capacitor Unit": 36,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
+    "Siren II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / INVENTION_RATE / BPC_RUNS,
+            "Datacore - Graviton Physics": 3 / INVENTION_RATE / BPC_RUNS,
+            "Siren I": 1,
+            "Morphite": 24,
+            "Ion Thruster": 22,
+            "Magnetometric Sensor Cluster": 28,
+            "Photon Microprocessor": 40,
+            "Fusion Reactor Unit": 38,
+            "Oscillator Capacitor Unit": 36,
+            "R.A.M.- Starship Tech": 3,
+        }
+    },
 }
 
 
