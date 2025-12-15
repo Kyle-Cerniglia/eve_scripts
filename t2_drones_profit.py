@@ -611,7 +611,7 @@ def main():
     results.sort(key=lambda r: r["profit_pct"], reverse=True)
 
     # Output: formatted columns
-    header_component = "Drones/Fighters"
+    header_component = "T2 Drones/Fighters"
     header_profit_isk = "Profit (ISK)"
     header_profit_pct = "Profit %"
     header_volume = "Buy Vol"
