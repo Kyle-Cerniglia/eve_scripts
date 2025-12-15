@@ -417,11 +417,11 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Electronics": 1,
         }
     },
-    "Remote Sensor II": {
+    "Remote Sensor Booster II": {
         "materials": {
             "Datacore - Electromagnetic Physics": 1 / 0.47 / 10,
             "Datacore - Electronic Engineering": 1 / 0.47 / 10,
-            "Remote Sensor I": 1,
+            "Remote Sensor Booster I": 1,
             "Morphite": 6,
             "Gravimetric Sensor Cluster": 8,
             "Quantum Microprocessor": 5,
@@ -799,6 +799,141 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Hypersynaptic Fibers": 17,
             "Transmitter": 12,
             "R.A.M.- Electronics": 1,
+        }
+    },
+    # Harvest Equipment
+    "Gas Cloud Harvester II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Gas Cloud Harvester I": 1,
+            "Morphite": 15,
+            "Photon Microprocessor": 23,
+            "Mechanical Parts": 30,
+            "Electronic Parts": 30,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Gas Cloud Scoop II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.479 / 10,
+            "Datacore - Electromagnetic Physics": 2 / 0.479 / 10,
+            "Gas Cloud Scoop I": 1,
+            "Photon Microprocessor": 18,
+            "Laser Focusing Crystals": 18,
+            "Mechanical Parts": 23,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Ice Harvester II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Electromagnetic Physics": 2 / 0.456 / 10,
+            "Ice Harvester I": 1,
+            "Morphite": 15,
+            "Photon Microprocessor": 23,
+            "Mechanical Parts": 30,
+            "Electronic Parts": 30,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Ice Mining Laser II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Ice Mining Laser I": 1,
+            "Morphite": 15,
+            "Photon Microprocessor": 4,
+            "Laser Focusing Crystals": 5,
+            "Mechanical Parts": 8,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Modulated Deep Core Miner II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Deep Core Mining Laser I": 1,
+            "Morphite": 23,
+            "Photon Microprocessor": 5,
+            "Laser Focusing Crystals": 3,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Miner II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Miner I": 1,
+            "Morphite": 1,
+            "Photon Microprocessor": 5,
+            "Laser Focusing Crystals": 3,
+            "Mechanical Parts": 8,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Ice Harvester Upgrade II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Ice Harvester Upgrade I": 1,
+            "Morphite": 5,
+            "Laser Focusing Crystals": 8,
+            "Mechanical Parts": 8,
+            "Miniature Electronics": 3,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Mining Laser Upgrade II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Mining Laser Upgrade I": 1,
+            "Morphite": 5,
+            "Laser Focusing Crystals": 8,
+            "Mechanical Parts": 8,
+            "Miniature Electronics": 3,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Salvager II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.448 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.448 / 10,
+            "Salvager I": 1,
+            "Ladar Sensor Cluster": 5,
+            "Nanomechanical Microprocessor": 5,
+            "Transmitter": 12,
+            "Miniature Electronics": 9,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Modulated Deep Core Strip Miner II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Strip Miner I": 1,
+            "Deep Core Mining Laser I": 1,
+            "Morphite": 23,
+            "Photon Microprocessor": 5,
+            "Laser Focusing Crystals": 3,
+            "Mechanical Parts": 6,
+            "Electronic Parts": 5,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Modulated Strip Miner II": {
+        "materials": {
+            "Datacore - Laser Physics": 2 / 0.456 / 10,
+            "Datacore - Mechanical Engineering": 2 / 0.456 / 10,
+            "Strip Miner I": 1,
+            "Deep Core Mining Laser I": 1,
+            "Morphite": 23,
+            "Photon Microprocessor": 5,
+            "Laser Focusing Crystals": 3,
+            "Mechanical Parts": 6,
+            "Electronic Parts": 5,
+            "R.A.M.- Energy Tech": 1,
         }
     },
 }
