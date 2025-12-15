@@ -467,6 +467,255 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Energy Tech": 1,
         }
     },
+    # Engineering Equipment
+    "Micro Auxiliary Power Core II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.459 / 10,
+            "Datacore - Quantum Physics": 1 / 0.459 / 10,
+            "Micro Auxiliary Power Core I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 6,
+            "Superconductors": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Large Cap Battery II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.459 / 10,
+            "Datacore - Quantum Physics": 3 / 0.459 / 10,
+            "Large Cap Battery I": 1,
+            "Morphite": 6,
+            "Nanoelectrical Microprocessor": 6,
+            "Tesseract Capacitor Unit": 12,
+            "Superconductors": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Cap Battery II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Medium Cap Battery I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 5,
+            "Tesseract Capacitor Unit": 6,
+            "Superconductors": 5,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Cap Battery II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.459 / 10,
+            "Datacore - Quantum Physics": 1 / 0.459 / 10,
+            "Small Cap Battery I": 1,
+            "Morphite": 3,
+            "Nanoelectrical Microprocessor": 3,
+            "Tesseract Capacitor Unit": 3,
+            "Superconductors": 3,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Heavy Capacitor Booster II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.459 / 10,
+            "Datacore - Quantum Physics": 3 / 0.459 / 10,
+            "Heavy Capacitor Booster I": 1,
+            "Morphite": 6,
+            "Nanoelectrical Microprocessor": 6,
+            "Tesseract Capacitor Unit": 12,
+            "Superconductors": 24,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Capacitor Booster II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Medium Capacitor Booster I": 1,
+            "Morphite": 3,
+            "Nanoelectrical Microprocessor": 5,
+            "Tesseract Capacitor Unit": 6,
+            "Superconductors": 12,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Capacitor Booster II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.459 / 10,
+            "Datacore - Quantum Physics": 1 / 0.459 / 10,
+            "Small Capacitor Booster I": 1,
+            "Morphite": 3,
+            "Nanoelectrical Microprocessor": 3,
+            "Tesseract Capacitor Unit": 3,
+            "Superconductors": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Capacitor Flux Coil II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.459 / 10,
+            "Datacore - Quantum Physics": 1 / 0.459 / 10,
+            "Capacitor Flux Coil I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 1,
+            "Tesseract Capacitor Unit": 5,
+            "Superconductors": 5,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Capacitor Power Relay II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Capacitor Power Relay I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 1,
+            "Tesseract Capacitor Unit": 1,
+            "Superconductors": 8,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Cap Recharger II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Cap Recharger I": 1,
+            "Morphite": 3,
+            "Nanoelectrical Microprocessor": 1,
+            "Tesseract Capacitor Unit": 1,
+            "Superconductors": 5,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Heavy Energy Neutralizer II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.459 / 10,
+            "Datacore - Quantum Physics": 3 / 0.459 / 10,
+            "Heavy Energy Neutralizer I": 1,
+            "Nanoelectrical Microprocessor": 23,
+            "Tesseract Capacitor Unit": 45,
+            "Superconductors": 30,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Energy Neutralizer II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Medium Energy Neutralizer I": 1,
+            "Nanoelectrical Microprocessor": 15,
+            "Tesseract Capacitor Unit": 30,
+            "Superconductors": 23,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Energy Neutralizer II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.459 / 10,
+            "Datacore - Quantum Physics": 1 / 0.459 / 10,
+            "Small Energy Neutralizer I": 1,
+            "Nanoelectrical Microprocessor": 8,
+            "Tesseract Capacitor Unit": 15,
+            "Superconductors": 8,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Heavy Energy Nosferatu II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.459 / 10,
+            "Datacore - Quantum Physics": 3 / 0.459 / 10,
+            "Heavy Energy Nosferatu I": 1,
+            "Morphite": 24,
+            "Nanoelectrical Microprocessor": 30,
+            "Tesseract Capacitor Unit": 52,
+            "Superconductors": 45,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Energy Nosferatu II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Medium Energy Nosferatu I": 1,
+            "Morphite": 12,
+            "Nanoelectrical Microprocessor": 15,
+            "Tesseract Capacitor Unit": 30,
+            "Superconductors": 30,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Energy Nosferatu II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Small Energy Nosferatu I": 1,
+            "Morphite": 6,
+            "Nanoelectrical Microprocessor": 8,
+            "Tesseract Capacitor Unit": 15,
+            "Superconductors": 8,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Power Diagnostic System II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Power Diagnostic System I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 8,
+            "Tesseract Capacitor Unit": 1,
+            "Superconductors": 1,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Reactor Control Unit II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Reactor Control Unit I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 5,
+            "Tesseract Capacitor Unit": 3,
+            "Superconductors": 3,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Large Remote Capacitor Transmitter II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.459 / 10,
+            "Datacore - Quantum Physics": 3 / 0.459 / 10,
+            "Large Remote Capacitor Transmitter I": 1,
+            "Morphite": 14,
+            "Nanoelectrical Microprocessor": 14,
+            "Tesseract Capacitor Unit": 23,
+            "Superconductors": 45,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Remote Capacitor Transmitter II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.459 / 10,
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Medium Remote Capacitor Transmitter I": 1,
+            "Morphite": 9,
+            "Nanoelectrical Microprocessor": 9,
+            "Tesseract Capacitor Unit": 15,
+            "Superconductors": 23,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Remote Capacitor Transmitter II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.459 / 10,
+            "Datacore - Quantum Physics": 1 / 0.459 / 10,
+            "Small Remote Capacitor Transmitter I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 5,
+            "Tesseract Capacitor Unit": 8,
+            "Superconductors": 15,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
 }
 
 
