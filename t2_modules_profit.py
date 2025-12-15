@@ -112,7 +112,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Datacore - Graviton Physics": 2 / 0.468 / 10,
             "Omnidirectional Tracking Link I": 1,
             "Morphite": 5,
-            "Partical Accelerator Unit": 12,
+            "Particle Accelerator Unit": 12,
             "Transmitter": 12,
             "R.A.M.- Electronics": 1,
         }
@@ -353,6 +353,118 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Transmitter": 8,
             "Miniature Electronics": 14,
             "R.A.M.- Electronics": 1,
+        }
+    },
+    # Electronics and Sensor Upgrades
+    "Auto Targeting System II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 1 / 0.47 / 10,
+            "Auto Targeting System I": 1,
+            "Morphite": 3,
+            "Ladar Sensor Cluster": 3,
+            "Quantum Microprocessor": 1,
+            "Electrolytic Capacitor Unit": 1,
+            "Transmitter": 5,
+            "Miniature Electronics": 11,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Improved Cloaking Device II": {
+        "materials": {
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Datacore - Graviton Physics": 2 / 0.459 / 10,
+            "Prototype Cloaking Device I": 1,
+            "Photon Microprocessor": 15,
+            "Graviton Pulse Generator": 15,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Covert Ops Cloaking Device II": {
+        "materials": {
+            "Datacore - Quantum Physics": 2 / 0.459 / 10,
+            "Datacore - Graviton Physics": 2 / 0.459 / 10,
+            "Prototype Cloaking Device I": 1,
+            "Photon Microprocessor": 33,
+            "Graviton Pulse Generator": 26,
+            "Transmitter": 22,
+            "Miniature Electronics": 22,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Co-Processor II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Co-Processor I": 1,
+            "Morphite": 1,
+            "Photon Microprocessor": 5,
+            "Oscillator Capacitor Unit": 3,
+            "Miniature Electronics": 24,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Passive Targeter II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 1 / 0.47 / 10,
+            "Passive Targeter I": 1,
+            "Morphite": 1,
+            "Ladar Sensor Cluster": 1,
+            "Nanomechanical Microprocessor": 5,
+            "Transmitter": 8,
+            "Miniature Electronics": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Remote Sensor II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 1 / 0.47 / 10,
+            "Remote Sensor I": 1,
+            "Morphite": 6,
+            "Gravimetric Sensor Cluster": 8,
+            "Quantum Microprocessor": 5,
+            "Transmitter": 8,
+            "Miniature Electronics": 9,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Sensor Booster II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Sensor Booster I": 1,
+            "Morphite": 3,
+            "Gravimetric Sensor Cluster": 6,
+            "Quantum Microprocessor": 5,
+            "Transmitter": 5,
+            "Miniature Electronics": 11,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Signal Amplifier II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Signal Amplifier I": 1,
+            "Morphite": 1,
+            "Gravimetric Sensor Cluster": 8,
+            "Quantum Microprocessor": 5,
+            "Transmitter": 3,
+            "Miniature Electronics": 8,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Small Tractor Beam II": {
+        "materials": {
+            "Datacore - Laser Physics": 1 / 0.448 / 10,
+            "Datacore - Mechanical Engineering": 1 / 0.448 / 10,
+            "Small Tractor Beam I": 1,
+            "Morphite": 1,
+            "Laser Focusing Crystals": 12,
+            "Transmitter": 12,
+            "R.A.M.- Energy Tech": 1,
         }
     },
 }
