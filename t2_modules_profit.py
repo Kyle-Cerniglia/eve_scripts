@@ -716,6 +716,91 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Energy Tech": 1,
         }
     },
+    # Fleet Assistance Modules
+    "Armor Command Burst II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.434 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.434 / 10,
+            "Armor Command Burst I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 8,
+            "Photon Microprocessor": 4,
+            "Nanotransistors": 33,
+            "Hypersynaptic Fibers": 17,
+            "Transmitter": 12,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Expedition Command Burst II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.434 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.434 / 10,
+            "Expedition Command Burst I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 8,
+            "Photon Microprocessor": 4,
+            "Nanotransistors": 33,
+            "Hypersynaptic Fibers": 17,
+            "Transmitter": 12,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Information Command Burst II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Information Command Burst I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 4,
+            "Quantum Microprocessor": 8,
+            "Nanotransistors": 33,
+            "Hypersynaptic Fibers": 17,
+            "Transmitter": 12,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Mining Foreman Burst II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.434 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.434 / 10,
+            "Mining Foreman Burst I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 4,
+            "Photon Microprocessor": 8,
+            "Nanotransistors": 33,
+            "Hypersynaptic Fibers": 17,
+            "Transmitter": 12,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Shield Command Burst II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Shield Command Burst I": 1,
+            "Morphite": 5,
+            "Nanomechanical Microprocessor": 6,
+            "Quantum Microprocessor": 6,
+            "Nanotransistors": 33,
+            "Hypersynaptic Fibers": 17,
+            "Transmitter": 12,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Skirmish Command Burst II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Skirmish Command Burst I": 1,
+            "Morphite": 5,
+            "Nanomechanical Microprocessor": 10,
+            "Photon Microprocessor": 2,
+            "Nanotransistors": 33,
+            "Hypersynaptic Fibers": 17,
+            "Transmitter": 12,
+            "R.A.M.- Electronics": 1,
+        }
+    },
 }
 
 
