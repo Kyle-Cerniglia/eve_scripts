@@ -1381,6 +1381,121 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Armor/Hull Tech": 1,
         }
     },
+    # Propulsion
+    "100MN Afterburner II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.425 / 10,
+            "Datacore - Rocket Science": 3 / 0.425 / 10,
+            "100MN Afterburner I": 1,
+            "Morphite": 12,
+            "Plasma Thruster": 12,
+            "Ion Thruster": 15,
+            "Antimatter Reactor Unit": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "10MN Afterburner II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Rocket Science": 2 / 0.425 / 10,
+            "10MN Afterburner I": 1,
+            "Morphite": 6,
+            "Plasma Thruster": 6,
+            "Ion Thruster": 15,
+            "Antimatter Reactor Unit": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "1MN Afterburner II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.425 / 10,
+            "Datacore - Rocket Science": 1 / 0.425 / 10,
+            "1MN Afterburner I": 1,
+            "Morphite": 1,
+            "Plasma Thruster": 3,
+            "Ion Thruster": 15,
+            "Antimatter Reactor Unit": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "500MN Microwarpdrive II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.425 / 10,
+            "Datacore - Rocket Science": 3 / 0.425 / 10,
+            "500MN Microwarpdrive I": 1,
+            "Morphite": 74,
+            "Plasma Thruster": 95,
+            "Ion Thruster": 15,
+            "Antimatter Reactor Unit": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "50MN Microwarpdrive II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Rocket Science": 2 / 0.425 / 10,
+            "50MN Microwarpdrive I": 1,
+            "Morphite": 33,
+            "Plasma Thruster": 48,
+            "Ion Thruster": 15,
+            "Antimatter Reactor Unit": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "5MN Microwarpdrive II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.425 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.425 / 10,
+            "5MN Microwarpdrive I": 1,
+            "Morphite": 17,
+            "Plasma Thruster": 24,
+            "Ion Thruster": 15,
+            "Antimatter Reactor Unit": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Inertial Stabilizers II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.436 / 10,
+            "Datacore - Rocket Science": 1 / 0.436 / 10,
+            "Inertial Stabilizers I": 1,
+            "Morphite": 1,
+            "Plasma Thruster": 3,
+            "Mechanical Parts": 5,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Interdiction Nullifier II": {
+        "materials": {
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Interdiction Nullifier I": 1,
+            "Morphite": 5,
+            "Nanomechanical Microprocessor": 6,
+            "R.A.M.- Electronics": 2,
+        }
+    },
+    "Overdrive Injector System II": {
+        "materials": {
+            "Datacore - Quantum Physics": 1 / 0.436 / 10,
+            "Datacore - Electronic Engineering": 1 / 0.436 / 10,
+            "Overdrive Injector System I": 1,
+            "Morphite": 1,
+            "Plasma Thruster": 5,
+            "Mechanical Parts": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Warp Core Stabilizer II": {
+        "materials": {
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Warp Core Stabilizer I": 1,
+            "Morphite": 5,
+            "Nanomechanical Microprocessor": 5,
+            "R.A.M.- Electronics": 1,
+        }
+    },
 }
 
 
