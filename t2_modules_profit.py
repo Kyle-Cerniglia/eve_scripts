@@ -936,6 +936,451 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Energy Tech": 1,
         }
     },
+    # Hull and armor
+    "EM Armor Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "EM Armor Hardener I": 1,
+            "Morphite": 23,
+            "Tungsten Carbide Armor Plate": 15,
+            "Sustained Shield Emitter": 27,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Explosive Armor Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Explosive Armor Hardener I": 1,
+            "Morphite": 23,
+            "Fernite Carbide Composite Armor Plate": 15,
+            "Sustained Shield Emitter": 27,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Kinetic Armor Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Kinetic Armor Hardener I": 1,
+            "Morphite": 23,
+            "Titanium Diborite Armor Plate": 15,
+            "Sustained Shield Emitter": 27,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Thermal Armor Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Thermal Armor Hardener I": 1,
+            "Morphite": 23,
+            "Crystalline Carbonide Armor Plate": 15,
+            "Sustained Shield Emitter": 27,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "100mm Steel Plates II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "100mm Steel Plates I": 1,
+            "Morphite": 3,
+            "Tungsten Carbide Armor Plate": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "1600mm Steel Plates II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 3 / 0.459 / 10,
+            "1600mm Steel Plates I": 1,
+            "Morphite": 48,
+            "Tungsten Carbide Armor Plate": 52,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "200mm Steel Plates II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "200mm Steel Plates I": 1,
+            "Morphite": 6,
+            "Tungsten Carbide Armor Plate": 11,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "400mm Steel Plates II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "400mm Steel Plates I": 1,
+            "Morphite": 12,
+            "Tungsten Carbide Armor Plate": 17,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "800mm Steel Plates II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 3 / 0.459 / 10,
+            "800mm Steel Plates I": 1,
+            "Morphite": 24,
+            "Tungsten Carbide Armor Plate": 29,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Large Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 3 / 0.459 / 10,
+            "Large Armor Repairer I": 1,
+            "Morphite": 8,
+            "Nanoelectrical Microprocessor": 6,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Medium Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Medium Armor Repairer I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 3,
+            "Robotics": 6,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "Small Armor Repairer I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 1,
+            "Robotics": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "EM Coating II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "EM Coating I": 1,
+            "Morphite": 1,
+            "Tungsten Carbide Armor Plate": 1,
+            "Titanium Diborite Armor Plate": 1,
+            "Crystalline Carbonide Armor Plate": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Explosive Coating II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "Explosive Coating I": 1,
+            "Morphite": 1,
+            "Fernite Carbide Composite Armor Plate": 3,
+            "Tungsten Carbide Armor Plate": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Kinetic Coating II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "Kinetic Coating I": 1,
+            "Morphite": 1,
+            "Fernite Carbide Composite Armor Plate": 1,
+            "Titanium Diborite Armor Plate": 3,
+            "Crystalline Carbonide Armor Plate": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Multispectrum Coating II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Molecular Engineering": 1 / 0.459 / 10,
+            "Multispectrum Coating I": 1,
+            "Morphite": 1,
+            "Fernite Carbide Composite Armor Plate": 1,
+            "Tungsten Carbide Armor Plate": 1,
+            "Titanium Diborite Armor Plate": 1,
+            "Crystalline Carbonide Armor Plate": 1,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Thermal Coating II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "Thermal Coating I": 1,
+            "Morphite": 1,
+            "Fernite Carbide Composite Armor Plate": 3,
+            "Crystalline Carbonide Armor Plate": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Assault Damage Control II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.445 / 10,
+            "Assault Damage Control I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 1,
+            "Fernite Carbide Composite Armor Plate": 1,
+            "Oscillator Capacitor Unit": 1,
+            "Plasma Pulse Generator": 1,
+            "Mechanical Parts": 6,
+            "Construction Blocks": 4,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Damage Control II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.445 / 10,
+            "Damage Control I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 1,
+            "Fernite Carbide Composite Armor Plate": 1,
+            "Oscillator Capacitor Unit": 1,
+            "Plasma Pulse Generator": 1,
+            "Mechanical Parts": 5,
+            "Construction Blocks": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "EM Energized Membrane II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "EM Energized Membrane I": 1,
+            "Morphite": 5,
+            "Tungsten Carbide Armor Plate": 3,
+            "Titanium Diborite Armor Plate": 3,
+            "Tesseract Capacitor Unit": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Explosive Energized Membrane II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Explosive Energized Membrane I": 1,
+            "Morphite": 5,
+            "Tungsten Carbide Armor Plate": 5,
+            "Crystalline Carbonide Armor Plate": 5,
+            "Tesseract Capacitor Unit": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Kinetic Energized Membrane II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Kinetic Energized Membrane I": 1,
+            "Morphite": 5,
+            "Fernite Carbide Composite Armor Plate": 3,
+            "Titanium Diborite Armor Plate": 3,
+            "Crystalline Carbonide Armor Plate": 3,
+            "Tesseract Capacitor Unit": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Multispectrum Energized Membrane II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Multispectrum Energized Membrane I": 1,
+            "Morphite": 15,
+            "Fernite Carbide Composite Armor Plate": 3,
+            "Tungsten Carbide Armor Plate": 3,
+            "Titanium Diborite Armor Plate": 3,
+            "Crystalline Carbonide Armor Plate": 3,
+            "Tesseract Capacitor Unit": 9,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Thermal Energized Membrane II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Thermal Energized Membrane I": 1,
+            "Morphite": 5,
+            "Crystalline Carbonide Armor Plate": 6,
+            "Tesseract Capacitor Unit": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Large Hull Repairer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 3 / 0.445 / 10,
+            "Large Hull Repairer I": 1,
+            "Morphite": 8,
+            "Nanomechanical Microprocessor": 6,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Medium Hull Repairer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.445 / 10,
+            "Medium Hull Repairer I": 1,
+            "Morphite": 5,
+            "Nanomechanical Microprocessor": 3,
+            "Robotics": 6,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Hull Repairer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.445 / 10,
+            "Small Hull Repairer I": 1,
+            "Morphite": 1,
+            "Nanomechanical Microprocessor": 1,
+            "Robotics": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Expanded Cargohold II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.445 / 10,
+            "Expanded Cargohold I": 1,
+            "Morphite": 1,
+            "Nanomechanical Microprocessor": 1,
+            "Crystalline Carbonide Armor Plate": 1,
+            "Construction Blocks": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Nanofiber Internal Structure II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.445 / 10,
+            "Nanofiber Internal Structure I": 1,
+            "Morphite": 1,
+            "Construction Blocks": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Reinforced Bulkheads II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.445 / 10,
+            "Reinforced Bulkheads I": 1,
+            "Morphite": 1,
+            "Construction Blocks": 8,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Layered Coating II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "Layered Coating I": 1,
+            "Morphite": 1,
+            "Tungsten Carbide Armor Plate": 3,
+            "Titanium Diborite Armor Plate": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Layered Energized Membrane II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Layered Energized Membrane I": 1,
+            "Morphite": 5,
+            "Fernite Carbide Composite Armor Plate": 1,
+            "Tungsten Carbide Armor Plate": 3,
+            "Titanium Diborite Armor Plate": 3,
+            "Tesseract Capacitor Unit": 3,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Heavy Mutadaptive Remote Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.442 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.442 / 10,
+            "Heavy Mutadaptive Remote Armor Repairer I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 3,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Large Remote Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 3 / 0.459 / 10,
+            "Large Remote Armor Repairer I": 1,
+            "Morphite": 8,
+            "Nanoelectrical Microprocessor": 6,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Medium Remote Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.459 / 10,
+            "Medium Remote Armor Repairer I": 1,
+            "Morphite": 5,
+            "Nanoelectrical Microprocessor": 3,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Remote Armor Repairer II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.459 / 10,
+            "Datacore - Nanite Engineering": 1 / 0.459 / 10,
+            "Small Remote Armor Repairer I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 1,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Large Remote Hull Repairer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 3 / 0.445 / 10,
+            "Large Remote Hull Repairer I": 1,
+            "Morphite": 9,
+            "Nanomechanical Microprocessor": 26,
+            "Robotics": 26,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Medium Remote Hull Repairer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.445 / 10,
+            "Medium Remote Hull Repairer I": 1,
+            "Morphite": 5,
+            "Nanomechanical Microprocessor": 12,
+            "Robotics": 12,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
+    "Small Remote Hull Repairer II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.445 / 10,
+            "Datacore - Nanite Engineering": 2 / 0.445 / 10,
+            "Small Remote Hull Repairer I": 1,
+            "Morphite": 1,
+            "Nanomechanical Microprocessor": 6,
+            "Robotics": 6,
+            "R.A.M.- Armor/Hull Tech": 1,
+        }
+    },
 }
 
 
