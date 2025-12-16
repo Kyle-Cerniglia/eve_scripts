@@ -1496,6 +1496,154 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Electronics": 1,
         }
     },
+    # Scanning Equipment
+    "Data Analyzer II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Data Analyzer I": 1,
+            "Ladar Sensor Cluster": 5,
+            "Quantum Microprocessor": 5,
+            "Transmitter": 12,
+            "Miniature Electronics": 9,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Relic Analyzer II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Relic Analyzer I": 1,
+            "Ladar Sensor Cluster": 5,
+            "Nanoelectrical Microprocessor": 5,
+            "Transmitter": 12,
+            "Miniature Electronics": 9,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Cargo Scanner II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 1 / 0.47 / 10,
+            "Cargo Scanner I": 1,
+            "Nanoelectrical Microprocessor": 5,
+            "Transmitter": 3,
+            "Miniature Electronics": 5,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Entosis Link II": {
+        "materials": {
+            "Datacore - Electronic Engineering": 3 / 0.442 / 10,
+            "Datacore - Graviton Physics": 3 / 0.442 / 10,
+            "Entosis Link I": 1,
+            "Morphite": 2940,
+            "Fusion Reactor Unit": 69,
+            "Nuclear Reactor Unit": 69,
+            "Antimatter Reactor Unit": 69,
+            "Graviton Reactor Unit": 69,
+            "Electrolytic Capacitor Unit": 79,
+            "Scalar Capacitor Unit": 98,
+            "Oscillator Capacitor Unit": 157,
+            "Tesseract Capacitor Unit": 79,
+            "Synthetic Synapses": 20,
+            "Transcranial Microcontrollers": 20,
+            "Transmitter": 40,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Mining Survey Chipset II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 1 / 0.47 / 10,
+            "Mining Survey Chipset I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 5,
+            "Transmitter": 3,
+            "Miniature Electronics": 5,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Core Probe Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Core Probe Launcher I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 6,
+            "Guidance Systems": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Expanded Probe Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Expanded Probe Launcher I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 6,
+            "Guidance Systems": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Scan Acquisition Array II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Scan Acquisition Array I": 1,
+            "Quantum Microprocessor": 3,
+            "Spatial Attunement Unit": 8,
+            "Transmitter": 9,
+            "Miniature Electronics": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Scan Pinpointing Array II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Scan Pinpointing Array I": 1,
+            "Quantum Microprocessor": 3,
+            "Spatial Attunement Unit": 8,
+            "Transmitter": 9,
+            "Miniature Electronics": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Scan Rangefinding Array II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Scan Rangefinding Array I": 1,
+            "Quantum Microprocessor": 3,
+            "Spatial Attunement Unit": 8,
+            "Transmitter": 9,
+            "Miniature Electronics": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Ship Scanner II": {
+        "materials": {
+            "Datacore - Electromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Electronic Engineering": 2 / 0.47 / 10,
+            "Ship Scanner I": 1,
+            "Nanoelectrical Microprocessor": 5,
+            "Transmitter": 3,
+            "Miniature Electronics": 5,
+            "R.A.M.- Electronics": 1,
+        }
+    },
+    "Survey Probe Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / 0.448 / 10,
+            "Datacore - Mechanical Engineering": 1 / 0.448 / 10,
+            "Survey Probe Launcher I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 6,
+            "Guidance Systems": 6,
+            "R.A.M.- Electronics": 1,
+        }
+    },
 }
 
 
