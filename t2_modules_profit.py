@@ -1903,6 +1903,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Shield Tech": 1,
         }
     },
+    # Smartbombs
     "Large EMP Smartbomb II": {
         "materials": {
             "Datacore - Molecular Engineering": 3 / 0.425 / 10,
@@ -2021,6 +2022,183 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Morphite": 3,
             "Nuclear Pulse Generator": 6,
             "R.A.M.- Energy Tech": 1,
+        }
+    },
+    # Turrets & Launchers
+    "Bomb Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Bomb Launcher I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 8,
+            "Robotics": 8,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Dual Heavy Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.436 / 10,
+            "Datacore - Laser Physics": 3 / 0.436 / 10,
+            "Dual Heavy Beam Laser I": 1,
+            "Morphite": 33,
+            "Laser Focusing Crystals": 32,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Mega Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.436 / 10,
+            "Datacore - Laser Physics": 3 / 0.436 / 10,
+            "Mega Beam Laser I": 1,
+            "Morphite": 36,
+            "Laser Focusing Crystals": 35,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Tachyon Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.436 / 10,
+            "Datacore - Laser Physics": 3 / 0.436 / 10,
+            "Mega Beam Laser I": 1,
+            "Morphite": 38,
+            "Laser Focusing Crystals": 36,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Focus Medium Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.436 / 10,
+            "Datacore - Laser Physics": 2 / 0.436 / 10,
+            "Focus Medium Beam Laser I": 1,
+            "Morphite": 17,
+            "Laser Focusing Crystals": 17,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.436 / 10,
+            "Datacore - Laser Physics": 2 / 0.436 / 10,
+            "Heavy Beam Laser I": 1,
+            "Morphite": 20,
+            "Laser Focusing Crystals": 20,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Quad Light Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.436 / 10,
+            "Datacore - Laser Physics": 2 / 0.436 / 10,
+            "Quad Light Beam Laser I": 1,
+            "Morphite": 14,
+            "Laser Focusing Crystals": 14,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Dual Light Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.436 / 10,
+            "Datacore - Laser Physics": 1 / 0.436 / 10,
+            "Dual Light Beam Laser I": 1,
+            "Morphite": 5,
+            "Laser Focusing Crystals": 8,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Focused Beam Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.436 / 10,
+            "Datacore - Laser Physics": 1 / 0.436 / 10,
+            "Small Focused Beam Laser I": 1,
+            "Morphite": 8,
+            "Laser Focusing Crystals": 11,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Dual Heavy Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.436 / 10,
+            "Datacore - Laser Physics": 3 / 0.436 / 10,
+            "Dual Heavy Pulse Laser I": 1,
+            "Morphite": 32,
+            "Laser Focusing Crystals": 30,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Mega Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.436 / 10,
+            "Datacore - Laser Physics": 3 / 0.436 / 10,
+            "Mega Pulse Laser I": 1,
+            "Morphite": 35,
+            "Laser Focusing Crystals": 33,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Focused Medium Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.436 / 10,
+            "Datacore - Laser Physics": 2 / 0.436 / 10,
+            "Focused Medium Pulse Laser I": 1,
+            "Morphite": 15,
+            "Laser Focusing Crystals": 15,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.436 / 10,
+            "Datacore - Laser Physics": 2 / 0.436 / 10,
+            "Heavy Pulse Laser I": 1,
+            "Morphite": 17,
+            "Laser Focusing Crystals": 18,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Dual Light Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.436 / 10,
+            "Datacore - Laser Physics": 1 / 0.436 / 10,
+            "Dual Light Pulse Laser I": 1,
+            "Morphite": 3,
+            "Laser Focusing Crystals": 6,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Gatling Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.436 / 10,
+            "Datacore - Laser Physics": 1 / 0.436 / 10,
+            "Gatling Pulse Laser I": 1,
+            "Morphite": 1,
+            "Laser Focusing Crystals": 5,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Small Focused Pulse Laser II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.436 / 10,
+            "Datacore - Laser Physics": 1 / 0.436 / 10,
+            "Small Focused Pulse Laser I": 1,
+            "Morphite": 6,
+            "Laser Focusing Crystals": 9,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
         }
     },
 }
