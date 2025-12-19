@@ -1644,6 +1644,265 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Electronics": 1,
         }
     },
+    # Shield
+    "Large Remote Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
+            "Datacore - Quantum Physics": 3 / 0.47 / 10,
+            "Large Remote Shield Booster I": 1,
+            "Morphite": 5,
+            "Linear Shield Emitter": 12,
+            "Transmiter": 12,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Medium Remote Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Medium Remote Shield Booster I": 1,
+            "Morphite": 3,
+            "Linear Shield Emitter": 6,
+            "Transmiter": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Remote Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Small Remote Shield Booster I": 1,
+            "Morphite": 1,
+            "Linear Shield Emitter": 3,
+            "Transmiter": 3,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Shield Boost Amplifier II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
+            "Datacore - Quantum Physics": 3 / 0.47 / 10,
+            "Shield Boost Amplifier I": 1,
+            "Morphite": 5,
+            "Sustained Shield Emitter": 6,
+            "Superconductors": 3,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "X-Large Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
+            "Datacore - Quantum Physics": 3 / 0.47 / 10,
+            "X-Large Ancillary Shield Booster I": 1,
+            "Morphite": 9,
+            "Sustained Shield Emitter": 29,
+            "Superconductors": 12,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Large Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
+            "Datacore - Quantum Physics": 3 / 0.47 / 10,
+            "Large Ancillary Shield Booster I": 1,
+            "Morphite": 6,
+            "Sustained Shield Emitter": 14,
+            "Superconductors": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Medium Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Medium Ancillary Shield Booster I": 1,
+            "Morphite": 3,
+            "Sustained Shield Emitter": 6,
+            "Superconductors": 3,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Shield Booster II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Small Ancillary Shield Booster I": 1,
+            "Morphite": 1,
+            "Sustained Shield Emitter": 3,
+            "Superconductors": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Large Shield Extender II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
+            "Datacore - Quantum Physics": 3 / 0.47 / 10,
+            "Large Shield Extender I": 1,
+            "Morphite": 6,
+            "Sustained Shield Emitter": 12,
+            "Hydrogen Batteries": 12,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Medium Shield Extender II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Medium Shield Extender I": 1,
+            "Morphite": 5,
+            "Sustained Shield Emitter": 6,
+            "Hydrogen Batteries": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Small Shield Extender II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Small Shield Extender I": 1,
+            "Morphite": 1,
+            "Sustained Shield Emitter": 3,
+            "Hydrogen Batteries": 3,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Shield Flux Coil II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Shield Flux Coil I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 1,
+            "Tesseract Capacitor Unit": 5,
+            "Superconductors": 5,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "EM Shield Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "EM Shield Hardener I": 1,
+            "Morphite": 8,
+            "Linear Shield Emitter": 24,
+            "Superconductors": 9,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Explosive Shield Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Explosive Shield Hardener I": 1,
+            "Morphite": 8,
+            "Deflection Shield Emitter": 24,
+            "Superconductors": 9,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Kinetic Shield Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Kinetic Shield Hardener I": 1,
+            "Morphite": 8,
+            "Sustained Shield Emitter": 24,
+            "Superconductors": 9,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Multispectrum Shield Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Multispectrum Shield Hardener I": 1,
+            "Morphite": 11,
+            "Deflection Shield Emitter": 8,
+            "Pulse Shield Emitter": 8,
+            "Linear Shield Emitter": 8,
+            "Sustained Shield Emitter": 8,
+            "Superconductors": 15,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Thermal Shield Hardener II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Thermal Shield Hardener I": 1,
+            "Morphite": 8,
+            "Pulse Shield Emitter": 24,
+            "Superconductors": 9,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Shield Power Relay II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Shield Power Relay I": 1,
+            "Morphite": 1,
+            "Nanoelectrical Microprocessor": 1,
+            "Tesseract Capacitor Unit": 1,
+            "Superconductors": 8,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Shield Recharger II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
+            "Datacore - Quantum Physics": 2 / 0.47 / 10,
+            "Shield Recharger I": 1,
+            "Morphite": 1,
+            "Superconductors": 3,
+            "Hydrogen Batteries": 1,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "EM Shield Amplifier II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "EM Shield Amplifier I": 1,
+            "Morphite": 5,
+            "Linear Shield Emitter": 8,
+            "Superconductors": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Explosive Shield Amplifier II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Explosive Shield Amplifier I": 1,
+            "Morphite": 5,
+            "Deflection Shield Emitter": 8,
+            "Superconductors": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Kinetic Shield Amplifier II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Kinetic Shield Amplifier I": 1,
+            "Morphite": 5,
+            "Sustained Shield Emitter": 8,
+            "Superconductors": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
+    "Thermal Shield Amplifier II": {
+        "materials": {
+            "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
+            "Datacore - Quantum Physics": 1 / 0.47 / 10,
+            "Thermal Shield Amplifier I": 1,
+            "Morphite": 5,
+            "Pulse Shield Emitter": 8,
+            "Superconductors": 6,
+            "R.A.M.- Shield Tech": 1,
+        }
+    },
 }
 
 
