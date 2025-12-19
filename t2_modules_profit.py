@@ -1903,6 +1903,126 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Shield Tech": 1,
         }
     },
+    "Large EMP Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 3 / 0.425 / 10,
+            "Large EMP Smartbomb I": 1,
+            "Morphite": 12,
+            "EM Pulse Generator": 24,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Large Graviton Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 3 / 0.425 / 10,
+            "Large Graviton Smartbomb I": 1,
+            "Morphite": 12,
+            "Graviton Pulse Generator": 24,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Large Plasma Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 3 / 0.425 / 10,
+            "Large Plasma Smartbomb I": 1,
+            "Morphite": 12,
+            "Plasma Pulse Generator": 24,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Large Proton Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 3 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 3 / 0.425 / 10,
+            "Large Proton Smartbomb I": 1,
+            "Morphite": 12,
+            "Nuclear Pulse Generator": 24,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium EMP Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Medium EMP Smartbomb I": 1,
+            "Morphite": 6,
+            "EM Pulse Generator": 12,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Graviton Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Medium Graviton Smartbomb I": 1,
+            "Morphite": 6,
+            "Graviton Pulse Generator": 12,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Plasma Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Medium Plasma Smartbomb I": 1,
+            "Morphite": 6,
+            "Plasma Pulse Generator": 12,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Medium Proton Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Medium Proton Smartbomb I": 1,
+            "Morphite": 6,
+            "Nuclear Pulse Generator": 12,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small EMP Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Small EMP Smartbomb I": 1,
+            "Morphite": 3,
+            "EM Pulse Generator": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Graviton Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Small Graviton Smartbomb I": 1,
+            "Morphite": 3,
+            "Graviton Pulse Generator": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Plasma Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Small Plasma Smartbomb I": 1,
+            "Morphite": 3,
+            "Plasma Pulse Generator": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
+    "Small Proton Smartbomb II": {
+        "materials": {
+            "Datacore - Molecular Engineering": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Small Proton Smartbomb I": 1,
+            "Morphite": 3,
+            "Nuclear Pulse Generator": 6,
+            "R.A.M.- Energy Tech": 1,
+        }
+    },
 }
 
 
