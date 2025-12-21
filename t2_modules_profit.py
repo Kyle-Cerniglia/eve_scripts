@@ -1652,7 +1652,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Large Remote Shield Booster I": 1,
             "Morphite": 5,
             "Linear Shield Emitter": 12,
-            "Transmiter": 12,
+            "Transmitter": 12,
             "R.A.M.- Shield Tech": 1,
         }
     },
@@ -1663,7 +1663,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Medium Remote Shield Booster I": 1,
             "Morphite": 3,
             "Linear Shield Emitter": 6,
-            "Transmiter": 6,
+            "Transmitter": 6,
             "R.A.M.- Shield Tech": 1,
         }
     },
@@ -1674,7 +1674,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "Small Remote Shield Booster I": 1,
             "Morphite": 1,
             "Linear Shield Emitter": 3,
-            "Transmiter": 3,
+            "Transmitter": 3,
             "R.A.M.- Shield Tech": 1,
         }
     },
@@ -1693,7 +1693,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
         "materials": {
             "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
             "Datacore - Quantum Physics": 3 / 0.47 / 10,
-            "X-Large Ancillary Shield Booster I": 1,
+            "X-Large Shield Booster I": 1,
             "Morphite": 9,
             "Sustained Shield Emitter": 29,
             "Superconductors": 12,
@@ -1704,7 +1704,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
         "materials": {
             "Datacore - Hydromagnetic Physics": 3 / 0.47 / 10,
             "Datacore - Quantum Physics": 3 / 0.47 / 10,
-            "Large Ancillary Shield Booster I": 1,
+            "Large Shield Booster I": 1,
             "Morphite": 6,
             "Sustained Shield Emitter": 14,
             "Superconductors": 6,
@@ -1715,7 +1715,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
         "materials": {
             "Datacore - Hydromagnetic Physics": 2 / 0.47 / 10,
             "Datacore - Quantum Physics": 2 / 0.47 / 10,
-            "Medium Ancillary Shield Booster I": 1,
+            "Medium Shield Booster I": 1,
             "Morphite": 3,
             "Sustained Shield Emitter": 6,
             "Superconductors": 3,
@@ -1726,7 +1726,7 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
         "materials": {
             "Datacore - Hydromagnetic Physics": 1 / 0.47 / 10,
             "Datacore - Quantum Physics": 1 / 0.47 / 10,
-            "Small Ancillary Shield Booster I": 1,
+            "Small Shield Booster I": 1,
             "Morphite": 1,
             "Sustained Shield Emitter": 3,
             "Superconductors": 1,
@@ -2069,11 +2069,11 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
-    "Focus Medium Beam Laser II": {
+    "Focused Medium Beam Laser II": {
         "materials": {
             "Datacore - High Energy Physics": 2 / 0.436 / 10,
             "Datacore - Laser Physics": 2 / 0.436 / 10,
-            "Focus Medium Beam Laser I": 1,
+            "Focused Medium Beam Laser I": 1,
             "Morphite": 17,
             "Laser Focusing Crystals": 17,
             "Robotics": 5,
