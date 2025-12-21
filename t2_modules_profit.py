@@ -2201,6 +2201,204 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
+    "Electron Blaster Cannon II": {
+        "materials": {
+            "Datacore - Plasma Physics": 3 / 0.468 / 10,
+            "Datacore - Quantum Physics": 3 / 0.468 / 10,
+            "Electron Blaster Cannon I": 1,
+            "Morphite": 32,
+            "Particle Accelerator Unit": 30,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Ion Blaster Cannon II": {
+        "materials": {
+            "Datacore - Plasma Physics": 3 / 0.468 / 10,
+            "Datacore - Quantum Physics": 3 / 0.468 / 10,
+            "Ion Blaster Cannon I": 1,
+            "Morphite": 33,
+            "Particle Accelerator Unit": 33,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Neutron Blaster Cannon II": {
+        "materials": {
+            "Datacore - Plasma Physics": 3 / 0.468 / 10,
+            "Datacore - Quantum Physics": 3 / 0.468 / 10,
+            "Neutron Blaster Cannon I": 1,
+            "Morphite": 15,
+            "Particle Accelerator Unit": 35,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Electron Blaster II": {
+        "materials": {
+            "Datacore - Plasma Physics": 2 / 0.468 / 10,
+            "Datacore - Quantum Physics": 2 / 0.468 / 10,
+            "Heavy Electron Blaster I": 1,
+            "Morphite": 14,
+            "Particle Accelerator Unit": 14,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Ion Blaster II": {
+        "materials": {
+            "Datacore - Plasma Physics": 2 / 0.468 / 10,
+            "Datacore - Quantum Physics": 2 / 0.468 / 10,
+            "Heavy Ion Blaster I": 1,
+            "Morphite": 17,
+            "Particle Accelerator Unit": 17,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Neutron Blaster II": {
+        "materials": {
+            "Datacore - Plasma Physics": 2 / 0.468 / 10,
+            "Datacore - Quantum Physics": 2 / 0.468 / 10,
+            "Heavy Neutron Blaster I": 1,
+            "Morphite": 18,
+            "Particle Accelerator Unit": 18,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Light Electron Blaster II": {
+        "materials": {
+            "Datacore - Plasma Physics": 1 / 0.468 / 10,
+            "Datacore - Quantum Physics": 1 / 0.468 / 10,
+            "Light Electron Blaster I": 1,
+            "Morphite": 3,
+            "Particle Accelerator Unit": 6,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Light Ion Blaster II": {
+        "materials": {
+            "Datacore - Plasma Physics": 1 / 0.468 / 10,
+            "Datacore - Quantum Physics": 1 / 0.468 / 10,
+            "Light Ion Blaster I": 1,
+            "Morphite": 5,
+            "Particle Accelerator Unit": 8,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Light Neutron Blaster II": {
+        "materials": {
+            "Datacore - Plasma Physics": 1 / 0.468 / 10,
+            "Datacore - Quantum Physics": 1 / 0.468 / 10,
+            "Light Neutron Blaster I": 1,
+            "Morphite": 6,
+            "Particle Accelerator Unit": 9,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "350mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 3 / 0.468 / 10,
+            "Datacore - Quantum Physics": 3 / 0.468 / 10,
+            "350mm Railgun I": 1,
+            "Morphite": 33,
+            "Superconductor Rails": 32,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "425mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 3 / 0.468 / 10,
+            "Datacore - Quantum Physics": 3 / 0.468 / 10,
+            "425mm Railgun I": 1,
+            "Morphite": 38,
+            "Superconductor Rails": 36,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Dual 250mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 3 / 0.468 / 10,
+            "Datacore - Quantum Physics": 3 / 0.468 / 10,
+            "Dual 250mm Railgun I": 1,
+            "Morphite": 33,
+            "Superconductor Rails": 32,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "200mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 2 / 0.468 / 10,
+            "Datacore - Quantum Physics": 2 / 0.468 / 10,
+            "200mm Railgun I": 1,
+            "Morphite": 5,
+            "Superconductor Rails": 17,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "250mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 2 / 0.468 / 10,
+            "Datacore - Quantum Physics": 2 / 0.468 / 10,
+            "250mm Railgun I": 1,
+            "Morphite": 20,
+            "Superconductor Rails": 20,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Dual 150mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 2 / 0.468 / 10,
+            "Datacore - Quantum Physics": 2 / 0.468 / 10,
+            "Dual 150mm Railgun I": 1,
+            "Morphite": 15,
+            "Superconductor Rails": 15,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "125mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 1 / 0.468 / 10,
+            "Datacore - Quantum Physics": 1 / 0.468 / 10,
+            "125mm Railgun I": 1,
+            "Morphite": 5,
+            "Superconductor Rails": 8,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "150mm Railgun II": {
+        "materials": {
+            "Datacore - Plasma Physics": 1 / 0.468 / 10,
+            "Datacore - Quantum Physics": 1 / 0.468 / 10,
+            "150mm Railgun I": 1,
+            "Morphite": 8,
+            "Superconductor Rails": 11,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "75mm Gatling Rail II": {
+        "materials": {
+            "Datacore - Plasma Physics": 1 / 0.468 / 10,
+            "Datacore - Quantum Physics": 1 / 0.468 / 10,
+            "75mm Gatling Rail I": 1,
+            "Morphite": 1,
+            "Superconductor Rails": 5,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
