@@ -2399,6 +2399,94 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
+    "Cruise Missile Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 3 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 3 / 0.425 / 10,
+            "Cruise Missile Launcher I": 1,
+            "Morphite": 12,
+            "Quantum Microprocessor": 12,
+            "Robotics": 12,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Assault Missile Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Heavy Assault Missile Launcher I": 1,
+            "Morphite": 6,
+            "Quantum Microprocessor": 6,
+            "Robotics": 6,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Missile Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Heavy Missile Launcher I": 1,
+            "Morphite": 6,
+            "Quantum Microprocessor": 3,
+            "Robotics": 6,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Light Missile Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Light Missile Launcher I": 1,
+            "Morphite": 3,
+            "Quantum Microprocessor": 6,
+            "Robotics": 3,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Rapid Heavy Missile Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 6 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 6 / 0.425 / 10,
+            "Rapid Heavy Missile Launcher I": 1,
+            "Morphite": 14,
+            "Quantum Microprocessor": 13,
+            "Robotics": 11,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Rapid Light Missile Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 2 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 2 / 0.425 / 10,
+            "Rapid Light Missile Launcher I": 1,
+            "Morphite": 3,
+            "Quantum Microprocessor": 5,
+            "Robotics": 3,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Rocket Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 1 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 1 / 0.425 / 10,
+            "Rocket Launcher I": 1,
+            "Morphite": 1,
+            "Quantum Microprocessor": 1,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Torpedo Launcher II": {
+        "materials": {
+            "Datacore - Rocket Science": 3 / 0.425 / 10,
+            "Datacore - Nuclear Physics": 3 / 0.425 / 10,
+            "Torpedo Launcher I": 1,
+            "Morphite": 24,
+            "Quantum Microprocessor": 24,
+            "Robotics": 24,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
