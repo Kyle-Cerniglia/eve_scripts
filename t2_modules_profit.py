@@ -2487,6 +2487,39 @@ COMPONENT_RECIPES: Dict[str, Dict[str, Dict[str, int]]] = {
             "R.A.M.- Weapon Tech": 1,
         }
     },
+    "Supratidal Entropic Disintegrator II": {
+        "materials": {
+            "Datacore - High Energy Physics": 3 / 0.419 / 10,
+            "Datacore - Laser Physics": 3 / 0.419 / 10,
+            "Supratidal Entropic Disintegrator I": 1,
+            "Morphite": 35,
+            "Laser Focusing Crystals": 33,
+            "Robotics": 14,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Heavy Entropic Disintegrator II": {
+        "materials": {
+            "Datacore - High Energy Physics": 2 / 0.419 / 10,
+            "Datacore - Laser Physics": 2 / 0.419 / 10,
+            "Heavy Entropic Disintegrator I": 1,
+            "Morphite": 17,
+            "Laser Focusing Crystals": 18,
+            "Robotics": 5,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
+    "Light Entropic Disintegrator II": {
+        "materials": {
+            "Datacore - High Energy Physics": 1 / 0.419 / 10,
+            "Datacore - Laser Physics": 1 / 0.419 / 10,
+            "Light Entropic Disintegrator I": 1,
+            "Morphite": 6,
+            "Laser Focusing Crystals": 9,
+            "Robotics": 1,
+            "R.A.M.- Weapon Tech": 1,
+        }
+    },
 }
 
 
